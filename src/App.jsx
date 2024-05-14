@@ -16,7 +16,7 @@ export default function Register() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('http://localhost:5000/api/book', { username, email, password }); // (Istestuota, serveris gauna informacija)
+            await axios.post('http://localhost:5000/api/book', { username, email, password }); // (Istestuota, serveris gauna informacija )
             console.log('user registered'); 
         } catch (error) {
             console.error('Registration error:', error);
