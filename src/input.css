@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#username {
+    background: white url(/src/img/ciuvas.png) left no-repeat;
+}
